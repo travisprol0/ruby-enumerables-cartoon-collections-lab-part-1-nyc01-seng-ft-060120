@@ -1,5 +1,5 @@
-def greet_characters(dwarves)
-  greet_characters.each do |character|
+def greet_characters(array)
+  array.each do |character|
     puts "Hello #{character}!"
   end
   # Use `each` to enumerate over the provided array
